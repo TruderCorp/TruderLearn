@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* set the background image of the body element */
+    h1 {
+        text-align:center;
+        font-size:60px;
+    }
+    body {
+      background-image: url("Background.png");
+      background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+    }
+
+    .topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create a right-aligned (split) link inside the navigation bar */
+.topnav a.split {
+  float: right;
+  background-color: #7155ff;
+  color: white;
+}
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 12px;
+  height: 500px
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+img {
+    border: 5px solid black;
+  border-radius: 25px;
+}
+  </style>
+</head>
+<body>
+
+
+<div class="topnav">
+  <a class="active" href="\lessonintro.html">Lessons</a>
+  <a href="\index.html">Login</a>
+  <a href="\ppolicy.html">Privacy Policy</a>
+  <a href="\worksheets.html">Worksheets</a>
+  <a href="\about.html" class="split">TruderPRO Arabic</a>
+</div>
+
+<h1> Units </h1>
+
+<div class="row">
+    <div class="column">
+     <a href="\arabiclettersh.html"> <img src="\arabicletters.png" style="width:100%"></a>
+    </div>
+    <div class="column">
+     <a href="\mainlessonsh.html"> <img src="\mainlessons.png"  style="width:100%"></a>
+    </div>
+    <div class="column">
+    <a href="\fullreviewh.html"><img src="\fullreview.png" style="width:100%"></a>
+      </div>
+  </div>
+</body>
+</html>
